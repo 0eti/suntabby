@@ -10,10 +10,12 @@
 
 
 ## Tech Stack
-- **MongoDB** - Database  
-- **Node.js + Express** - Backend services + API  (May use other languages)
-- **Next.js** - Frontend web app  
-- **RabbitMQ** - Message Queue
+- **MongoDB**: Database  
+- **Node.js + Express**: Backend services + API  (May use other languages)
+- **Next.js**: Frontend web app  
+- **RabbitMQ**: Message Queue
+- **Docker**: Ease of setup and deployment
+- **Kubernetes**: To manage docker containers
 
 
 ## Goals & Motivations
