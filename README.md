@@ -1,10 +1,36 @@
 # Suntabby Software
-Frotend - Website + Maybe a mobile app.
-Backend - Services
 
-Microservice oriented architecture. Going to use a brokered system with RabbitMQ as the message queue 
 
-GOALS: 
-1) Keep backend services independently deployable
-2) Provide content that others can learn something from
-3) Create a scalable cloud native web app
+## Running the App
+    # Make sure you have docker installed
+
+    git clone https://github.com/0eti/suntabby.git
+    cd suntabby
+    docker-compose up
+
+
+## Tech Stack
+- **MongoDB** - Database  
+- **Node.js + Express** - Backend services + API  (May use other languages)
+- **Next.js** - Frontend web app  
+- **RabbitMQ** - Message Queue
+
+
+## Goals & Motivations
+- Create a scalable cloud native web app
+- Keep backend microservices independently deployable
+- Learning
+
+
+## Structure
+- backend
+    - auth_service
+- frontend
+    - web
+    - mobile
+
+
+## Updates
+- **02/21/2021**
+    - 1:50am
+        - Readme created :)
