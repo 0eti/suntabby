@@ -14,6 +14,7 @@
 - **Node.js + Express**: Backend services + API  (May use other languages)
 - **Next.js**: Frontend web app  
 - **RabbitMQ**: Message Queue
+- **NGINX**: Reverse Proxy
 - **Docker**: Ease of setup and deployment
 - **Kubernetes**: To manage docker containers
 
