@@ -2,7 +2,7 @@
 
 
 ## Running the App
-    # Make sure you have docker installed
+    # Be sure to fill out config file
 
     git clone https://github.com/0eti/suntabby.git
     cd suntabby
@@ -13,6 +13,11 @@
 - **MongoDB**: Database  
 - **Node.js + Express**: Backend services + API  (May use other languages)
 - **Next.js**: Frontend web app  
+    - **Redux**: State manager
+    - **TailwindCSS**: CSS Framework of choice
+        - **TailwindCSS Forms**
+        - **TailwindCSS Typography**
+    - **Fontawesome 4**: Sexy Icons
 - **RabbitMQ**: Message Queue
 - **NGINX**: Reverse Proxy
 - **Docker**: Ease of setup and deployment
@@ -36,4 +41,4 @@
 ## Updates
 - **02/21/2021**
     - 1:50am
-        - Readme created :)))
+        - Start of it all.
