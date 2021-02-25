@@ -1,6 +1,12 @@
 # Suntabby Software
 
 
+## Goals & Motivations
+- Education
+- Practice creating a scalable cloud native web app
+- Keep backend microservices independently deployable
+
+
 ## Running the App
     # Be sure to fill out config file
 
@@ -11,7 +17,7 @@
 
 ## Tech Stack
 - **MongoDB**: Database  
-- **Node.js + Express**: Backend services + API  (May use other languages)
+- **Node.js + Express**: Backend services + API Gateway  (May use other languages)
 - **Next.js**: Frontend web app  
     - **Redux**: State manager
     - **TailwindCSS**: CSS Framework of choice
@@ -19,15 +25,9 @@
         - **TailwindCSS Typography**
     - **Fontawesome 4**: Sexy Icons
 - **RabbitMQ**: Message Queue
-- **NGINX**: Reverse Proxy
+- **NGINX**: Serving Static Assets + Reverse Proxy
 - **Docker**: Ease of setup and deployment
-- **Kubernetes**: To manage docker containers
-
-
-## Goals & Motivations
-- Create a scalable cloud native web app
-- Keep backend microservices independently deployable
-- Learning
+- **Kubernetes**: Manage docker containers
 
 
 ## Structure
