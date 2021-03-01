@@ -5,6 +5,7 @@
 - Education
 - Practice creating a scalable cloud native web app
 - Keep backend microservices independently deployable
+- Logging
 
 
 ## Running the App
