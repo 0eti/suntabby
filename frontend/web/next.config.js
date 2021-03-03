@@ -6,7 +6,10 @@ module.exports = (phase, {defaultConfig}) => {
 
     if(phase === PHASE_DEVELOPMENT_SERVER) {
         return {
-            defaultConfig
+            defaultConfig,
+            env: {
+                api: "http://localhost"
+            }
         }
     }
 }

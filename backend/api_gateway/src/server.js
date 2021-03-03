@@ -13,7 +13,7 @@ app.use(rateLimiter)
 
 app.get("/", (req, res) => {
     console.log(req.ip)
-    res.send("HI")
+    res.json({success: "API GATEWAY"})
 })
 
 app.listen(process.env.PORT || 3000, () => {
