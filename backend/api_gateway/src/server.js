@@ -9,7 +9,7 @@ app.set('trust proxy', true)
 //     console.log(req.headers)
 //     next()
 // })
-// app.use(rateLimiter)
+app.use(rateLimiter)
 
 app.get("/", (req, res) => {
     console.log(req.ip)
